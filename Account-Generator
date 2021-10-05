@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="description" content="Tariq Thomas and his portfolio of projects.">
+        <title>
+            Tariq's Portfilio
+        </title>
+        
+    </head>
+    
+    <body style="background-color:goldenrod;">
+
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Projects.html">Projects</a>
+                <a href="AboutMe.html">Contact</a>
+            </nav>
+
+    <h1>Account Generator</h1>
