@@ -70,6 +70,8 @@
 
 body{
   animation: transitionIn 3.5s;
+  text-align: center;
+  background-color:goldenrod;
 }
 @keyframes transitionIn {
    from{
@@ -82,4 +84,8 @@ body{
     transform: rotateX(0);
 
    }
+}
+
+.PageHeader{
+  color: white;
 }
