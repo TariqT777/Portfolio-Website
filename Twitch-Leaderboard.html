@@ -7,16 +7,29 @@
             Tariq's Portfilio
         </title>
         
+        <link href = "./Style/stylesheet.css" rel="stylesheet" type="text/css" />
+        
     </head>
     
     <body style="background-color:goldenrod;">
 
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="Projects.html">Projects</a>
-                <a href="AboutMe.html">Contact</a>
-            </nav>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="AboutMe.html">Contact</a>
+            <div class="dropdown">
+              <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="space-invaders.html">Space Invaders</a>   
+                <a href="RoomMatch.html">RoomMatch</a>
+                <a href="popstars.html">PopStars</a> 
+                <a href="Account-Generator.html">Account Generator</a>
+                <a href="Twitch-Leaderboard.html">Twitch Leaderboard</a>
+                <a href="Average-Rent-Finder.html">Average Rent Finder</a>
+              </div>
+            </div>
+          </div>
 
     <h1>Twitch Leaderboard</h1>
 
