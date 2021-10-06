@@ -2,11 +2,14 @@
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
+    animation: transitionIn 10.5s;
+    margin: auto;
+    width: 100%;
   }
   
   /* Links inside the navbar */
   .navbar a {
-    float: left;
+    float: right;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -16,7 +19,7 @@
   
   /* The dropdown container */
   .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
   }
   
@@ -69,10 +72,12 @@
 
 
 body{
-  animation: transitionIn 3.5s;
+  animation: transitionIn 6.5s;
   text-align: center;
-  background-color:goldenrod;
+  background-color:black;
 }
+
+
 @keyframes transitionIn {
    from{
       opacity: 0;
@@ -88,4 +93,9 @@ body{
 
 .PageHeader{
   color: white;
+}
+
+#Intro-Image{
+  height: 100vh;
+  height: 100%;
 }
