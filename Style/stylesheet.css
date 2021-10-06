@@ -2,13 +2,14 @@
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
-    animation: transitionIn 10.5s;
+    animation: transitionIn 2.5s;
     margin: auto;
     width: 100%;
+    padding: 0;
   }
   
   /* Links inside the navbar */
-  .navbar a {
+.navbar a {
     float: right;
     font-size: 16px;
     color: white;
@@ -24,7 +25,7 @@
   }
   
   /* Dropdown button */
-  .dropdown .dropbtn {
+.dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -74,7 +75,7 @@
 body{
   animation: transitionIn 6.5s;
   text-align: center;
-  background-color:black;
+  background-color: goldenrod;
 }
 
 
@@ -96,6 +97,7 @@ body{
 }
 
 #Intro-Image{
-  height: 100vh;
+  padding: 0;
   height: 100%;
+  max-width: auto;
 }
